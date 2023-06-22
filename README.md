@@ -1,5 +1,5 @@
 ![Banner](https://github.com/cmgus/cmgus/assets/46165181/ebc90ea8-86d6-4f1d-acfa-970e6f69c416)
-Soy un entusiasta por el desarrollo web. Aunque no he tenido experiencia profesional en el campo, he invertido tiempo y esfuerzo en aprender y practicar estas tecnologías de manera autodidacta. Mi objetivo es aplicar mis habilidades en un entorno profesional para contribuir al desarrollo de aplicaciones web.
+Soy un entusiasta por el desarrollo web. Aunque no he tenido experiencia profesional en el campo, he invertido tiempo y esfuerzo en aprender y practicar estas tecnologías de manera autodidacta. Mi objetivo es aplicar mis habilidades en un entorno profesional para contribuir al desarrollo de aplicaciones web.\n
 Tengo conocimientos en:
 | Frontend | Backend | Base de datos |
 |:--------:|:-------:|:-------------:|
