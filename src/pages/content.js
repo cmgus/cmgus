@@ -1,0 +1,6 @@
+export const name = 'Gustavo CM'
+export const designation = 'Desarrollador de Software'
+export const location = 'Perú'
+export const website = 'https://petergriffin.com'
+export const username = 'cmgus'
+export const email = 'gustavo.alocoma@gmail.com'

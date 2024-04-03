@@ -1,0 +1,43 @@
+---
+import * as CONTENT from '../pages/content'
+---
+
+<header class="mx-auto pt-8">
+  <article
+    class="grid grid-cols-3 grid-rows-1 place-items-center max-w-3xl mb-3"
+  >
+    <div
+      class="rounded-full border-primary self-end shadow-2xl md:w-24 w-20 aspect-square"
+    >
+      <img
+        src="https://yt3.ggpht.com/yti/ANjgQV9ziSnG_NISqFZAxyfz40-wTRjJd4LXzW3tCAQY=s88-c-k-c0x00ffffff-no-rj"
+        alt="profile_picture"
+        class="object-cover w-full h-full rounded-full grayscale-[50] hover:grayscale-0"
+      />
+    </div>
+
+    <div class="grid text-center self-center whitespace-nowrap">
+      <h1 class="text-3xl text-text">{CONTENT.name}</h1>
+      <h3 class="text-lg text-text/90">{CONTENT.designation}</h3>
+      <h5 class="text-sm text-text/80 self-end">{CONTENT.location}</h5>
+    </div>
+
+    <div class="md:grid text-right self-end hidden">
+      <h6 class="text-sm text-text/70">
+        {CONTENT.username}
+      </h6>
+      <a
+        href={CONTENT.email}
+        target="_blank"
+        class="hover:text-blue-300 flex items-center justify-center"
+      >
+        {CONTENT.email}
+      </a>
+    </div>
+  </article>
+  <article class="w-full flex flex-nowrap bg-slate-400">
+    <div class="bg-slate-900 w-full h-1.5" id="one"></div>
+    <div class="bg-red-900 w-full h-1.5" id="two"></div>
+    <div class="bg-blue-900 w-full h-1.5" id="three"></div>
+  </article>
+</header>
