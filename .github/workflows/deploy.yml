@@ -1,7 +1,8 @@
 name: 'Astro Deploy'
-description: 'A composite action that prepares your Astro site to be deployed to GitHub Pages'
+
 on:
   push:
+
 jobs:
   build:
     runs-on: ubuntu-20.04
